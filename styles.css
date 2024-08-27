@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #e0e0e0; 
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #282828; 
+    color: #f5f5f5;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-color: #1f1f1f; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+#projects .project {
+    margin-bottom: 30px;
+}
+
+#projects .project h3 {
+    margin-top: 0;
+    color: #4dabf7; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f78c6b; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e07557; 
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0; 
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333; 
+    background-color: #1f1f1f; 
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #4dabf7; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #339af0;
+}
+
+footer {
+    background-color: #1f1f1f; 
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .socials a {
+    color: #4dabf7; 
+    text-decoration: none;
+    margin: 0 10px;
+}
