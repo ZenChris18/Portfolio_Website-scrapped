@@ -1,14 +1,16 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212; 
-    color: #e0e0e0; 
+    color: #e0e0e0;
+    line-height: 1.6;
 }
 
+/* Header Styles */
 header {
     background-color: #1f1f1f;
-    color: #f5f5f5;
     padding: 20px 0;
     text-align: center;
 }
@@ -27,11 +29,16 @@ nav ul li a {
     color: #f5f5f5;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4dabf7; 
 }
 
 .hero {
     padding: 100px 0;
-    background-color: #282828; 
+    background: linear-gradient(to bottom, #282828, #121212); 
     color: #f5f5f5;
 }
 
@@ -44,6 +51,7 @@ nav ul li a {
     font-size: 24px;
 }
 
+/* Section Styles */
 section {
     padding: 50px 20px;
     margin: 20px 0;
@@ -58,7 +66,7 @@ section {
 
 #projects .project h3 {
     margin-top: 0;
-    color: #4dabf7; 
+    color: #4dabf7; /* Accent Color */
 }
 
 .btn {
@@ -75,6 +83,7 @@ section {
     background-color: #e07557; 
 }
 
+/* Form Styles */
 #contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -111,6 +120,7 @@ section {
     background-color: #339af0;
 }
 
+/* Footer Styles */
 footer {
     background-color: #1f1f1f; 
     color: #f5f5f5;
@@ -122,4 +132,25 @@ footer .socials a {
     color: #4dabf7; 
     text-decoration: none;
     margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: #339af0;
+}
+
+/* Responsive Design for different screen sizes*/
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
